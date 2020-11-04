@@ -1,0 +1,18 @@
+COPYRIGHT
+    Code and Data to Accompany Investigating and Communicating Library Instructionâ€™s Relationship to Student Retention: A Study of Two Community Colleges is copyright 2020 by Angela Creel, Wendy Hoag, and Kendra Perry
+
+DIRECTIONS AND DOCUMENTATION
+    Directions and documentation located in the README.txt file for Code and Data to Accompany Investigating and Communicating Library Instructionâ€™s Relationship to Student Retention: A Study of Two Community Colleges is licensed under CC BY-SA 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/4.0
+
+DATA
+    Data and data templates located in the Excel files for Code and Data to Accompany Investigating and Communicating Library Instructionâ€™s Relationship to Student Retention: A Study of Two Community Colleges are licensed under Community Data License Agreement â€“ Permissive, Version 1.0. To view a copy of this license, visit https://cdla.io/permissive-1-0/
+
+CODE
+    Code located in the file LI-RetentionStudy.R is free: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or any later version.
+    
+    This program is distributed in the hope that it will be useful,but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License for more details.
+    
+    You should have received a copy of the GNU Affero General Public License along with this program.  If not, see https://www.gnu.org/licenses/
+    
+CONTACT
+    You may contact the authors via the OSF repository for this project: https://osf.io/qarzw/ 
