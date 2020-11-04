@@ -4,7 +4,7 @@ COPYRIGHT
     2020 by Angela Creel, Wendy Hoag, and Kendra Perry
 
 DIRECTIONS AND DOCUMENTATION
-    Directions and documentation located in the README.txt file for Code and Data to 
+    Directions and documentation located in the readme.txt file for Code and Data to 
     Accompany Investigating and Communicating Library Instruction's Relationship to 
     Student Retention: A Study of Two Community Colleges is licensed under CC BY-SA 4.0. 
     To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/4.0
