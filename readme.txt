@@ -28,7 +28,6 @@ DEFINITIONS AND ASSUMPTIONS
   critical value (for chi-square): The value that helps you determine whether to accept or reject the null hypothesis in a chi-squared test. For a right-tailed chi-square test with one degree of freedom and an alpha level of .05 (as in our analysis), the critical value is 3.841. Chi-square test results higher than this number are considered to be statistically significant. More about critical values: https://www.statisticshowto.com/how-to-find-a-critical-chi-square-value/ 
   degrees of freedom (for chi-square): Sorry, we don't really understand this statistical concept. All we know is that, for this project, the df=1. More about degrees of freedom, in case you have a better head for stats than we do: https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/degrees-of-freedom/
   
-
 DATA PREPARATION
 Summarize your data in an Excel spreadsheet with the following column headings. A template Excel file is provided. Use a separate Excel file for each institution or combination of institutions being studied. 
 
@@ -82,4 +81,6 @@ DATA INTERPRETATION
       23) sample estimates: This is the risk ratio for this particular sample. A ratio of 1 indicates that both outcomes are equally likely. A ratio higher than 1 indicates that the relative probability of retention is higher WITH LI and also indicates by how much. For example, a risk ratio of 1.2 means that it is 20% more likely for a student to be retained with LI. A ratio lower than 1 indicates that retention is LESS likely with LI and by how much. For example, a risk ratio of 0.8 indicates that retention is 20% less likely with LI.
       24) For more information on the odds ratio test and its interpretation, see https://www.statisticshowto.com/calculate-relative-risk/#RR
       
-Code and Data to Accompany Investigating and Communicating Library Instruction’s Relationship to Student Retention: A Study of Two Community Colleges by Angela Creel, Wendy Hoag, and Kendra Perry is licensed under CC BY-SA 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/4.0
+Code and Data to Accompany "Investigating and Communicating Library Instruction’s Relationship to Student Retention: A Study of Two Community Colleges" by Angela Creel, Wendy Hoag, and Kendra Perry is licensed under CC BY-SA 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/4.0
+
+You may contact the authors via https://osf.io/qarzw/ 
