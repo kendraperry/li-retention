@@ -1,9 +1,21 @@
 COPYRIGHT
-Code and Data to Accompany Investigating and Communicating Library Instruction’s Relationship to Student Retention: A Study of Two Community Colleges is copyright 2020 by Angela Creel, Wendy Hoag, and Kendra Perry.
+Code and Data to Accompany "Investigating and Communicating Library Instruction’s Relationship to Student Retention: A Study of Two Community Colleges" is copyright 2020 by Angela Creel, Wendy Hoag, and Kendra Perry.
 
 LICENSING
 The directions in this file are licensed under CC BY-SA 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/4.0
 
+FILE LIST AND DESCRIPTIONS
+This code and dataset includes the following files:
+  AWC_A14-SP19.xlsx - a pre-formatted Excel file containing LI/retention data for the semesters Fall 2014 to Spring 2019 at Arizona Western College
+  CDLA-Permissive-v1.0.pdf - complete text of the CDLA-Permissive v. 1.0 license, under which the dataset contained in the Excel files is released
+  HCC_AWC_FA16-SP18.xslx - a pre-formatted Excel file containing combined LI/retention data for the semesters Fall 2016 to Spring 2018 at both HCC and AWC
+  HCC_FA16-SP18.xslx - a preformatted Excel file containing LI/retention data for the semesters Fall 206 to Spring 208 at Hagerstown Community College
+  LI-RetentionExcelTemplate.xslx - an empty template with only column headings provided as a starting point for your data collection & analysis
+  LI-RetentionStudy.R - a file of code for R software enabling you to load your data into R (via RStudio) and analyze it the same way we did ours
+  copying.txt - complete text of the GNU Affero General Public License (GNU AGPL) v. 3.0, under which the R code is licensed
+  license.txt - summarizes the license terms of all components included
+  readme.txt - (this file) describes how to duplicate our statistical anaysis as well as interpret the results
+  
 DEFINITIONS AND ASSUMPTIONS
   Eligible students: Students enrolled in either 1) a section of a course that received library instruction OR 2) a similar section/course that did NOT receive library instruction AND who did not graduate or transfer to a 4-year school before the next term or year. NOTE: It is also possible to count graduate/transfer students as retained; however, in our study, we simply excluded them from all calculations.
   Library instruction: (abbreviated as LI) An in-class presentation by a librarian on library resources, evaluating sources, documentation styles, etc. May include one-shots and/or customized presentations for a specific course or section. The key determining factor is that the librarian presents to the whole class (usually at the request of the instructor), so that student motivation is not a confounding factor.
