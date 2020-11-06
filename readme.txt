@@ -27,6 +27,8 @@ This folder should include all of the following code and dataset files:
 DATA PREPARATION
 Summarize your data in an Excel spreadsheet with the following column headings. A template Excel file is provided. Use a separate Excel file for each institution or combination of institutions being studied. 
 
+If you do not have your own data, you may use one or more of our datasets, contained in the HCC and AWC .xlsx files
+
   term = name of the term being studied (fa16, sp17, etc)
   li_ret_term = total number of eligible students who DID receive library instruction and WERE retained the following term
   li_notret_term = total number of eligible students who DID receive library instruction but were NOT retained the following term
