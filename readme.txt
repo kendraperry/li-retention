@@ -53,7 +53,9 @@ DEFINITIONS AND ASSUMPTIONS
 
 STATISTICAL ANALYSIS USING RSTUDIO
   1) Begin by installing R, then RStudio. Step-by-step directions can be found at https://rpubs.com/acolumbus/how-to-use-r-with-excel
-  2) Open RStudio and click "Open an existing file" in the upper left corner (yellow folder icon with a green arrow). Open LI-RetentionStudy.R - the file should open in the upper left pane of the RStudio window.
+  2) Open RStudio and click "Open an existing file" in the upper left corner
+  2a) Click the yellow folder icon with a green arrow OR Click File > Open OR Press CTRL+O in Windows. 
+  2b) Open LI-RetentionStudy.R - the file should open in the upper left pane of the RStudio window.
   3) If desired, you may resize the top left pane by dragging the borders. For ease of use, it is recommended to resize the pane so that at least the lines numbered 1-23 are visible all at the same time. 
   4) Follow the directions in the comments (shown in green and preceded by #) to import and analyze the data
   5) The actual directions begin on Line 22 (HOW TO USE), following the licensing information 
