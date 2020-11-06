@@ -51,7 +51,7 @@ DEFINITIONS AND ASSUMPTIONS
   critical value (for chi-square): The value that helps you determine whether to accept or reject the null hypothesis in a chi-squared test. For a right-tailed chi-square test with one degree of freedom and an alpha level of .05 (as in our analysis), the critical value is 3.841. Chi-square test results higher than this number are considered to be statistically significant. More about critical values: https://www.statisticshowto.com/how-to-find-a-critical-chi-square-value/ 
   degrees of freedom (for chi-square): Sorry, we don't really understand this statistical concept. All we know is that, for this project, the df=1. More about degrees of freedom, in case you have a better head for stats than we do: https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/degrees-of-freedom/
 
-STATISTICAL ANALYSIS
+STATISTICAL ANALYSIS USING RSTUDIO
   1) Begin by installing R, then RStudio. Step-by-step directions can be found at https://rpubs.com/acolumbus/how-to-use-r-with-excel
   2) Open RStudio and click "Open an existing file" in the upper left corner (yellow folder icon with a green arrow). Open LI-RetentionStudy.R - the file should open in the upper left pane of the RStudio window.
   3) If desired, you may resize the top left pane by dragging the borders. For ease of use, it is recommended to resize the pane so that at least the lines numbered 1-23 are visible all at the same time. 
