@@ -13,7 +13,7 @@ From the GitHub or OSF page, download all the contents of the li-retention direc
 4) Open the folder containing your files
 
 FILE LIST AND DESCRIPTIONS
-This code and dataset includes the following files:
+This folder should include all of the following code and dataset files:
   AWC_A14-SP19.xlsx - a pre-formatted Excel file containing LI/retention data for the semesters Fall 2014 to Spring 2019 at Arizona Western College
   CDLA-Permissive-v1.0.pdf - complete text of the CDLA-Permissive v. 1.0 license, under which the dataset contained in the Excel files is released
   HCC_AWC_FA16-SP18.xslx - a pre-formatted Excel file containing combined LI/retention data for the semesters Fall 2016 to Spring 2018 at both HCC and AWC
