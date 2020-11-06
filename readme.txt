@@ -52,12 +52,12 @@ DEFINITIONS AND ASSUMPTIONS
   degrees of freedom (for chi-square): Sorry, we don't really understand this statistical concept. All we know is that, for this project, the df=1. More about degrees of freedom, in case you have a better head for stats than we do: https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/degrees-of-freedom/
 
 STATISTICAL ANALYSIS USING RSTUDIO
-  1) Begin by installing R, then RStudio. Step-by-step directions can be found at https://rpubs.com/acolumbus/how-to-use-r-with-excel
+  1) Begin by installing R, then RStudio. Step-by-step directions can be found in Sections 0.1 and 0.2 of https://rpubs.com/acolumbus/how-to-use-r-with-excel
   2) Open RStudio and click "Open an existing file" in the upper left corner
   2a) Click the yellow folder icon with a green arrow OR Click File > Open OR Press CTRL+O in Windows. 
   2b) Open LI-RetentionStudy.R - the file should open in the upper left pane of the RStudio window.
   3) If desired, you may resize the top left pane by dragging the borders. For ease of use, it is recommended to resize the pane so that at least the lines numbered 1-23 are visible all at the same time. 
-  4) Follow the directions in the comments (shown in green and preceded by #) to import and analyze the data
+  4) Read carefully and follow the directions in the R comments (shown in green and preceded by #) to import and analyze the data
   5) The actual directions begin on Line 22 (HOW TO USE), following the licensing information 
 
 DATA INTERPRETATION
