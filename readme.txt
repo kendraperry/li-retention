@@ -3,6 +3,14 @@ Code and Data to Accompany "Investigating and Communicating Library Instructionâ
 
 LICENSING
 The directions in this file are licensed under CC BY-SA 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/4.0
+  
+GETTING STARTED
+From the GitHub or OSF page, download all the contents of the li-retention directory.
+1) Click the green CODE dropdown at the top of the file list
+2) Choose Download ZIP
+3) After the .ZIP file downloads, extract the files to the directory of your choice on your local computer.
+3a) If you are not sure how to extract the file, Google "extract zip file [your operating system]"
+4) Open the folder containing your files
 
 FILE LIST AND DESCRIPTIONS
 This code and dataset includes the following files:
@@ -15,18 +23,6 @@ This code and dataset includes the following files:
   copying.txt - complete text of the GNU Affero General Public License (GNU AGPL) v. 3.0, under which the R code is licensed
   license.txt - summarizes the license terms of all components included
   readme.txt - (this file) describes how to duplicate our statistical anaysis as well as interpret the results
-  
-DEFINITIONS AND ASSUMPTIONS
-  Eligible students: Students enrolled in either 1) a section of a course that received library instruction OR 2) a similar section/course that did NOT receive library instruction AND who did not graduate or transfer to a 4-year school before the next term or year. NOTE: It is also possible to count graduate/transfer students as retained; however, in our study, we simply excluded them from all calculations.
-  Library instruction: (abbreviated as LI) An in-class presentation by a librarian on library resources, evaluating sources, documentation styles, etc. May include one-shots and/or customized presentations for a specific course or section. The key determining factor is that the librarian presents to the whole class (usually at the request of the instructor), so that student motivation is not a confounding factor.
-  Retained: Re-enrolled in at least one course in the following term and/or year
-  Following term: The next full term immediately following the term in which LI occurred. Summer terms are excluded. For example, if LI occurs in Spring 2017, the following term is Fall 2017. If LI occurs in Fall 2017, the following term is Spring 2018.
-  Following year: The same term of the following calendar year. Summer terms are excluded. For example, if LI occurs in Spring 2017, Spring 2018 is the following year. If LI occurs in Fall 2017, Fall 2018 is the following year. 
-  p-value: In statistical terminology, this is the percent likelihood that your result could occur by chance. To interpret, compare it to your alpha value. If it is smaller, your result is statistically significant. If it is larger, it is not. More info about p-values: https://www.statisticshowto.com/p-value/ 
-  alpha or significance level: In statistical terminology, this is the percent likelihood of rejecting a null hypothesis when it is, in fact, true. Researchers typically identify the alpha level they are willing to accept before beginning an experiment or analysis. Common alpha levels are .05 (5%), .01 (1%), or .10 (10%). For our analysis, we used an alpha level of .05. More info about alpha levels: https://www.statisticshowto.com/what-is-an-alpha-level/
-  null hypothesis: In research and statistical terminology, this is the commonly-accepted fact or outcome that we are working to disprove. For this research project, the null hypothesis is that there is NO relationship between library instruction and retention. More about null hypotheses: https://www.statisticshowto.com/probability-and-statistics/null-hypothesis/ 
-  critical value (for chi-square): The value that helps you determine whether to accept or reject the null hypothesis in a chi-squared test. For a right-tailed chi-square test with one degree of freedom and an alpha level of .05 (as in our analysis), the critical value is 3.841. Chi-square test results higher than this number are considered to be statistically significant. More about critical values: https://www.statisticshowto.com/how-to-find-a-critical-chi-square-value/ 
-  degrees of freedom (for chi-square): Sorry, we don't really understand this statistical concept. All we know is that, for this project, the df=1. More about degrees of freedom, in case you have a better head for stats than we do: https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/degrees-of-freedom/
   
 DATA PREPARATION
 Summarize your data in an Excel spreadsheet with the following column headings. A template Excel file is provided. Use a separate Excel file for each institution or combination of institutions being studied. 
@@ -41,11 +37,24 @@ Summarize your data in an Excel spreadsheet with the following column headings. 
   noli_ret_year = total number of eligible students who did NOT receive library instruction and WERE retained the following year
   noli_notret_year = total number of eligible students who did NOT receive library instruction and were NOT retained the following year
 
+DEFINITIONS AND ASSUMPTIONS
+  Eligible students: Students enrolled in either 1) a section of a course that received library instruction OR 2) a similar section/course that did NOT receive library instruction AND who did not graduate or transfer to a 4-year school before the next term or year. NOTE: It is also possible to count graduate/transfer students as retained; however, in our study, we simply excluded them from all calculations.
+  Library instruction: (abbreviated as LI) An in-class presentation by a librarian on library resources, evaluating sources, documentation styles, etc. May include one-shots and/or customized presentations for a specific course or section. The key determining factor is that the librarian presents to the whole class (usually at the request of the instructor), so that student motivation is not a confounding factor.
+  Retained: Re-enrolled in at least one course in the following term and/or year
+  Following term: The next full term immediately following the term in which LI occurred. Summer terms are excluded. For example, if LI occurs in Spring 2017, the following term is Fall 2017. If LI occurs in Fall 2017, the following term is Spring 2018.
+  Following year: The same term of the following calendar year. Summer terms are excluded. For example, if LI occurs in Spring 2017, Spring 2018 is the following year. If LI occurs in Fall 2017, Fall 2018 is the following year. 
+  p-value: In statistical terminology, this is the percent likelihood that your result could occur by chance. To interpret, compare it to your alpha value. If it is smaller, your result is statistically significant. If it is larger, it is not. More info about p-values: https://www.statisticshowto.com/p-value/ 
+  alpha or significance level: In statistical terminology, this is the percent likelihood of rejecting a null hypothesis when it is, in fact, true. Researchers typically identify the alpha level they are willing to accept before beginning an experiment or analysis. Common alpha levels are .05 (5%), .01 (1%), or .10 (10%). For our analysis, we used an alpha level of .05. More info about alpha levels: https://www.statisticshowto.com/what-is-an-alpha-level/
+  null hypothesis: In research and statistical terminology, this is the commonly-accepted fact or outcome that we are working to disprove. For this research project, the null hypothesis is that there is NO relationship between library instruction and retention. More about null hypotheses: https://www.statisticshowto.com/probability-and-statistics/null-hypothesis/ 
+  critical value (for chi-square): The value that helps you determine whether to accept or reject the null hypothesis in a chi-squared test. For a right-tailed chi-square test with one degree of freedom and an alpha level of .05 (as in our analysis), the critical value is 3.841. Chi-square test results higher than this number are considered to be statistically significant. More about critical values: https://www.statisticshowto.com/how-to-find-a-critical-chi-square-value/ 
+  degrees of freedom (for chi-square): Sorry, we don't really understand this statistical concept. All we know is that, for this project, the df=1. More about degrees of freedom, in case you have a better head for stats than we do: https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/degrees-of-freedom/
+
 STATISTICAL ANALYSIS
   1) Begin by installing R, then RStudio. Step-by-step directions can be found at https://rpubs.com/acolumbus/how-to-use-r-with-excel
-  2) Open RStudio and click "Open an existing file" in the upper left corner. Open LI-RetentionStudy.R - the file should open in the upper left pane of the RStudio window.
+  2) Open RStudio and click "Open an existing file" in the upper left corner (yellow folder icon with a green arrow). Open LI-RetentionStudy.R - the file should open in the upper left pane of the RStudio window.
   3) If desired, you may resize the top left pane by dragging the borders. For ease of use, it is recommended to resize the pane so that at least the lines numbered 1-23 are visible all at the same time. 
   4) Follow the directions in the comments (shown in green and preceded by #) to import and analyze the data
+  5) The actual directions begin on Line 22 (HOW TO USE), following the licensing information 
 
 DATA INTERPRETATION
   1) Open one of your output files
