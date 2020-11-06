@@ -61,7 +61,7 @@ STATISTICAL ANALYSIS USING RSTUDIO
   5) The actual directions begin on Line 22 (HOW TO USE), following the licensing information 
 
 DATA INTERPRETATION
-  1) Open one of your output files
+  1) Open one of your output files from the folder you selected in RStudio (line 71 - INPUT NEEDED (2))
   2) The top section shows the name of the term and the first few data points imported
 
     SUMMARIES
