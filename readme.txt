@@ -1,8 +1,11 @@
 COPYRIGHT
-Code and Data to Accompany "Investigating and Communicating Library Instruction’s Relationship to Student Retention: A Study of Two Community Colleges" is copyright 2020 by Angela Creel, Wendy Hoag, and Kendra Perry.
+Code and Data to Accompany "Investigating and Communicating Library Instruction’s Relationship to 
+Student Retention: A Study of Two Community Colleges" is copyright 2020 by Angela Creel, Wendy Hoag, 
+and Kendra Perry.
 
 LICENSING
-The directions in this file are licensed under CC BY-SA 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/4.0
+The directions in this file are licensed under CC BY-SA 4.0. To view a copy of this license, 
+visit https://creativecommons.org/licenses/by-sa/4.0
   
 GETTING STARTED
 From the GitHub or OSF page, download all the contents of the li-retention directory.
@@ -50,6 +53,7 @@ DEFINITIONS AND ASSUMPTIONS
   null hypothesis: In research and statistical terminology, this is the commonly-accepted fact or outcome that we are working to disprove. For this research project, the null hypothesis is that there is NO relationship between library instruction and retention. More about null hypotheses: https://www.statisticshowto.com/probability-and-statistics/null-hypothesis/ 
   critical value (for chi-square): The value that helps you determine whether to accept or reject the null hypothesis in a chi-squared test. For a right-tailed chi-square test with one degree of freedom and an alpha level of .05 (as in our analysis), the critical value is 3.841. Chi-square test results higher than this number are considered to be statistically significant. More about critical values: https://www.statisticshowto.com/how-to-find-a-critical-chi-square-value/ 
   degrees of freedom (for chi-square): Sorry, we don't really understand this statistical concept. All we know is that, for this project, the df=1. More about degrees of freedom, in case you have a better head for stats than we do: https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/degrees-of-freedom/
+  contingency table: ADD DEFINITION
 
 STATISTICAL ANALYSIS USING RSTUDIO
   1) Begin by installing R, then RStudio. Step-by-step directions can be found in Sections 0.1 and 0.2 of https://rpubs.com/acolumbus/how-to-use-r-with-excel
@@ -62,7 +66,7 @@ STATISTICAL ANALYSIS USING RSTUDIO
 
 DATA INTERPRETATION
   1) Open one of your output files from the folder you selected in RStudio (line 71 - INPUT NEEDED (2)) - it should have a filename such as fa14-output.txt
-  2) The top section shows the name of the term and the first few data points imported
+  2) The top section shows the name of the term and the first few data points imported. This is just transcribed from your Excel file. No interpretation of these lines is necessary.
 
     SUMMARIES
       3) The Term-to-Term Summary shows totals of the different categories of students, percentages for LI students and non-LI students retained in the following term, and the difference in the percentages. A positive number for the difference indicates that more LI students were retained; a negative number indicates that a higher percentage of non-LI students were retained.
@@ -70,26 +74,26 @@ DATA INTERPRETATION
       5) This data can be used to make bar graphs showing comparative retention rates.
 
     CHI-SQUARE
-      6) The top of these sections displays the contingency table on which the calcuation was run.
+      6) The top of these sections displays the contingency table on which the calcuation was run ADD LINK.
       7) Below the name of the test (Pearson's Chi-squared test with Yates' continuity correction), the results are displayed. 
-      8) X-squared: This is the chi-square value. Compare it to the critical value. If it is higher than the critical value, your result is statistically significant. If it is lower, your result is not. 
+      8) X-squared: This is the chi-square value. Compare it to the critical value. If it is higher than the critical value, your result is statistically significant. If it is lower, your result is not ADD LINK.
       9) df: This displays the degrees of freedom. For our scenario, this value should always be 1.
-      10) p-value: This is the percent likelihood that your result could occur by chance. To interpret, compare it to your alpha value. If it is smaller, your result is statistically significant. If it is larger, it is not. More info about p-values: https://www.statisticshowto.com/p-value/
+      10) p-value: This is the percent likelihood that your result could occur by chance. To interpret, compare it to your alpha value. If it is smaller, your result is statistically significant. If it is larger, it is not. More info about p-values: https://www.statisticshowto.com/p-value/ - EXPLAIN SCIENTIFIC NOTATION
       11) For more information about the chi-square test of independence and how to interpret it, see https://www.statisticshowto.com/probability-and-statistics/chi-square/
 
     ODDS RATIO
       12) The top of these sections displays the contingency tables on which the calculation was run. Please note that by default, the category "Exposed" corresponds with students who HAVE received LI, and the "Disease" category corresponds with those who WERE retained.
       13) Below the name of the test (Odds ratio estimate and its significance probability), the results are displayed.
-      14) p-value: This is the percent likelihood that your result could occur by chance. To interpret, compare it to your alpha value. If it is smaller, your result is statistically significant. If it is larger, it is not. More info about p-values: https://www.statisticshowto.com/p-value/
+      14) p-value: This is the percent likelihood that your result could occur by chance. To interpret, compare it to your alpha value. If it is smaller, your result is statistically significant. If it is larger, it is not. More info about p-values: https://www.statisticshowto.com/p-value/ - EXPLAIN SCIENTIFIC NOTATION
       15) 95 percent confidence interval: These numbers express the range (low to high) of where the odds ratio would fall 95% of the time if we repeated this test over and over with different samples. More info about 95% CIs: https://www.statisticshowto.com/probability-and-statistics/confidence-interval/#CI95
       16) sample estimates: This is the odds ratio for this particular sample. A ratio of 1 indicates that both outcomes are equally likely. A ratio higher than 1 indicates that the odds of retention are higher WITH LI. A ratio lower than 1 indicates that retention is LESS likely with LI.
       17) For more information on the odds ratio test and its interpretation, see https://www.statisticshowto.com/odds-ratio/
     
     RELATIVE PROBABILITY
       18) It is important to note that the terms "risk ratio," "relative  risk," and "relative probability" are all synonymous and interchangable. In most medical studies, the outcome under investigation is negative, such as development of a disease, and so the ratio is commonly referred to as the “risk ratio.” Since the outcome in our study is positive (retention in the following term or year), we have referred to this as the “relative probability” for the purposes of our project.
-      19) The top of this section summarizes the variables used for the calculation and shows the contingency table. Note that "Exposed" is the same as "LI," and "Disease" is the same as "Retained."
+      19) The top of this section summarizes the variables used by R for the calculation, accompanied by a description of what each variable represents in our scenario. It also shows the contingency table. Note that "Exposed" is the same as "LI," and "Disease" is the same as "Retained." - ADD INFO ABOUT CONTINGENCY TABLE
       20) Below the name of the test (Risk ratio estimate and its significance probability), the results are displayed.
-      21) p-value: This is the percent likelihood that your result could occur by chance. To interpret, compare it to your alpha value. If it is smaller, your result is statistically significant. If it is larger, it is not. More info about p-values: https://www.statisticshowto.com/p-value/
+      21) p-value: This is the percent likelihood that your result could occur by chance. To interpret, compare it to your alpha value. If it is smaller, your result is statistically significant. If it is larger, it is not. More info about p-values: https://www.statisticshowto.com/p-value/ - ADD SCIENTIFIC NOTATION INFO
       22) 95 percent confidence interval: These numbers express the range (low to high) of where the risk ratio would fall 95% of the time if we repeated this test over and over with different samples. More info about 95% CIs: https://www.statisticshowto.com/probability-and-statistics/confidence-interval/#CI95
       23) sample estimates: This is the risk ratio for this particular sample. A ratio of 1 indicates that both outcomes are equally likely. A ratio higher than 1 indicates that the relative probability of retention is higher WITH LI and also indicates by how much. For example, a risk ratio of 1.2 means that it is 20% more likely for a student to be retained with LI. A ratio lower than 1 indicates that retention is LESS likely with LI and by how much. For example, a risk ratio of 0.8 indicates that retention is 20% less likely with LI.
       24) For more information on the odds ratio test and its interpretation, see https://www.statisticshowto.com/calculate-relative-risk/#RR
