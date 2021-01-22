@@ -53,7 +53,7 @@ DEFINITIONS AND ASSUMPTIONS
   null hypothesis: In research and statistical terminology, this is the commonly-accepted fact or outcome that we are working to disprove. For this research project, the null hypothesis is that there is NO relationship between library instruction and retention. More about null hypotheses: https://www.statisticshowto.com/probability-and-statistics/null-hypothesis/ 
   critical value (for chi-square): The value that helps you determine whether to accept or reject the null hypothesis in a chi-squared test. For a right-tailed chi-square test with one degree of freedom and an alpha level of .05 (as in our analysis), the critical value is 3.841. Chi-square test results higher than this number are considered to be statistically significant. More about critical values: https://www.statisticshowto.com/how-to-find-a-critical-chi-square-value/ 
   degrees of freedom (for chi-square): Sorry, we don't really understand this statistical concept. All we know is that, for this project, the df=1. More about degrees of freedom, in case you have a better head for stats than we do: https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/degrees-of-freedom/
-  contingency table: ADD DEFINITION
+  contingency table: A table that helps summarize the relationships present in the data collected and organize it for further statistical analysis. More about contingency tables: https://www.statisticshowto.com/what-is-a-contingency-table/
 
 STATISTICAL ANALYSIS USING RSTUDIO
   1) Begin by installing R, then RStudio. Step-by-step directions can be found in Sections 0.1 and 0.2 of https://rpubs.com/acolumbus/how-to-use-r-with-excel
@@ -74,9 +74,9 @@ DATA INTERPRETATION
       5) This data can be used to make bar graphs showing comparative retention rates.
 
     CHI-SQUARE
-      6) The top of these sections displays the contingency table on which the calcuation was run ADD LINK.
+      6) The top of these sections displays the contingency table on which the calcuation was run. More info about contingency tables: https://www.statisticshowto.com/what-is-a-contingency-table/
       7) Below the name of the test (Pearson's Chi-squared test with Yates' continuity correction), the results are displayed. 
-      8) X-squared: This is the chi-square value. Compare it to the critical value. If it is higher than the critical value, your result is statistically significant. If it is lower, your result is not ADD LINK.
+      8) X-squared: This is the chi-square value. Compare it to the critical value. If it is higher than the critical value, your result is statistically significant. If it is lower, your result is not. More info about critical values: https://www.statisticshowto.com/how-to-find-a-critical-chi-square-value/
       9) df: This displays the degrees of freedom. For our scenario, this value should always be 1.
       10) p-value: This is the percent likelihood that your result could occur by chance. To interpret, compare it to your alpha value. If it is smaller, your result is statistically significant. If it is larger, it is not. More info about p-values: https://www.statisticshowto.com/p-value/ - EXPLAIN SCIENTIFIC NOTATION
       11) For more information about the chi-square test of independence and how to interpret it, see https://www.statisticshowto.com/probability-and-statistics/chi-square/
